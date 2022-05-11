@@ -1,0 +1,100 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#cg1{
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: linear-gradient(
+        to right,
+        red,
+        green,
+        aqua,
+        rgba(28, 197, 132, 0.432)
+    );
+}
+
+#cg2{
+    background-color: silver;
+    border: 4px solid red;
+    border-radius: 15px;
+    height: 70px;
+    width: 640px;
+    text-align: center;
+    margin: auto;
+}
+
+.bg{
+    background-color: aqua;
+    border: solid red 2px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box{
+    background-color: rgb(6, 87, 69);
+    border: 2px solid green;
+    border-radius: 15px;
+    height: 70px;
+    width: 420px;
+    margin-bottom: 4px;
+}
+.box2{
+    background-color: rgb(6, 87, 69);
+    border: 2px solid green;
+    border-radius: 15px;
+    height: 70px;
+    width: 420px;
+    margin: auto;
+}
+
+.cg3{
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    background-image: linear-gradient(
+        to right,
+        red,
+        yellow,
+        orange,
+        red
+    );
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+    margin: 10px;
+    background-image: radial-gradient(
+        blue,
+        aqua,
+        green
+    );
+}
+
+.box3{
+    background-color: yellow;
+    text-shadow: 1px 1px red;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: 80px;
+    width: 140px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
