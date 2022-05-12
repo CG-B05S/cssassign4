@@ -1,6 +1,5 @@
 body,html{
     margin: 0;
-    padding: 0;
 }
 
 #cg1{
@@ -97,4 +96,104 @@ body,html{
     text-align: center;
     text-decoration: underline;
     margin-top: 50px;
+    
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+.grid1{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    grid-column-start:1 ;
+    grid-column-end:5;
+}
+
+.grid2{
+    background-color: rgb(30, 235, 30);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    grid-column-start:1 ;
+    grid-column-end:2;
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.grid3{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    grid-column-start:2 ;
+    grid-column-end:3;
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    margin-top: 20px;
+}
+.grid4{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+    grid-column-start:3 ;
+    grid-column-end:4;
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.grid5{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: overline;
+    grid-row-start:2 ;
+    grid-row-end:4 ;
+    grid-column-start:4 ;
+    grid-column-end:5;
+    height: 200px;
+    width: 130px;
+}
+
+.grid6{
+    background-color:orange;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:3 ;
+    grid-row-end:3 ;
+    grid-column-start:1 ;
+    grid-column-end:4;
+    height: 100;
+    width: auto;
+    padding: 10px;
+}
+.grid7{
+    background-color:rgb(21, 209, 193);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-row-start:4 ;
+    grid-row-end:4 ;
+    grid-column-start:1 ;
+    grid-column-end:5;
+   
 }
